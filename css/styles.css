@@ -23,7 +23,9 @@ ul {
 main {
   padding: 16px;
 }
-
+/* ====================== */
+/* Utility Classes */
+/* ====================== */
 .box-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
@@ -84,12 +86,16 @@ main {
   font-weight: 600;
 }
 
-/* ================================================= */
-
+/* ====================== */
+/* Sidebar */
+/* ====================== */
 .sidebar {
   display: none;
 }
 
+/* ====================== */
+/* Header */
+/* ====================== */
 .header_card {
   background-color: white;
   padding: 16px;
@@ -232,8 +238,9 @@ main {
   display: none;
 }
 
-/* ============================================== */
-
+/* ====================== */
+/* Summary Cards */
+/* ====================== */
 .summary_cards {
   margin-bottom: 24px;
 }
@@ -268,8 +275,9 @@ main {
   color: oklch(62.7% 0.194 149.214);
 }
 
-/* ============================================== */
-
+/* ====================== */
+/* Grid Layout */
+/* ====================== */
 .grid {
   display: grid;
   gap: 20px;
@@ -301,8 +309,9 @@ main {
   line-height: 16px;
   font-weight: 500;
 }
-/* =================================================== */
-
+/* ====================== */
+/* Recent Activities */
+/* ====================== */
 .recent_activities_card {
   grid-area: recent_activities_card;
   padding: 16px;
@@ -376,8 +385,9 @@ main {
   color: oklch(48.8% 0.243 264.376);
 }
 
-/* ======================================== */
-
+/* ====================== */
+/* Transactions */
+/* ====================== */
 .transactions_card {
   padding: 16px;
   background-color: white;
@@ -493,8 +503,9 @@ main {
   background-color: oklch(95% 0.052 163.051);
 }
 
-/* =================================================== */
-
+/* ====================== */
+/* Bills */
+/* ====================== */
 .bills_card {
   padding: 24px;
   background-color: white;
@@ -556,8 +567,9 @@ main {
   font-weight: 600;
 }
 
-/* ======================================================== */
-
+/* ====================== */
+/* Budget */
+/* ====================== */
 .budget_card {
   padding: 24px;
   background-color: white;
@@ -742,8 +754,9 @@ main {
   }
 }
 
-/* ================================================ */
-
+/* ====================== */
+/* Income Analytics */
+/* ====================== */
 .income_card {
   padding: 24px;
   grid-area: income_card;
@@ -823,8 +836,9 @@ main {
   margin-top: 8px;
 }
 
-/* ==================================================== */
-
+/* ====================== */
+/* Account Summary */
+/* ====================== */
 .account_summary_card {
   padding: 24px;
   background-color: white;
@@ -866,8 +880,9 @@ main {
   color: oklch(55.8% 0.288 302.321);
 }
 
-/* ============================================ */
-
+/* ====================== */
+/* Payment Methods */
+/* ====================== */
 .payment_methods_card {
   padding: 24px;
   background-color: white;
@@ -963,7 +978,7 @@ main {
 }
 
 .payment_card_back {
-  color: #fff;
+  color: white;
   background: linear-gradient(120deg, #051026, #0b1220 45%, #0f1724);
   flex-direction: column;
   justify-content: flex-start;
